@@ -1,0 +1,519 @@
+.header-outer-wrapper
+	{
+		background:url(../images/header-back.png) repeat-x;
+		background-position:bottom;
+	}
+	
+	/*------------------BANNER SECTION--------------------------------*/
+.banner-wrapper
+	{
+		background-color:#fff;
+		height:590px;
+	}
+
+#banner
+	{
+		height:590px;
+	}
+
+.subBanner-wrapper
+	{
+		position:relative;
+		width:100%;
+	} 
+
+.smallBanner-wrapper
+	{
+		background:url('../images/whitebanner.png') repeat-x;
+		bottom:109px;
+		color:#000;
+		font-family:Open Sans;
+		font-size:26px;
+		opacity:0.70;
+		margin-left:192px;
+		position:absolute;
+		width:492px;
+		z-index:9;
+		padding:16px 0 16px 24px ;
+	}
+
+.slider-images
+	{
+		position:absolute;
+		z-index:0;
+		width:100%; 
+		height:590px;
+	}
+
+.bigBanner-wrapper
+	{
+		position:absolute;
+		top:271px;
+		z-index:9;
+	}
+
+
+
+.slide-prev
+	{
+		float:left;
+		cursor:pointer;
+		margin-left:192px;
+	}
+
+.slide-next
+	{
+		float:left;
+		cursor:pointer;
+		margin-left:1025px;
+	}
+ 
+ /*-----------------------------------SEARCH BOX SECTION-----------------------------------*/
+.search-container
+	{
+		float:left;
+		border:1px solid #e6e6e6;
+		padding:12px;
+		overflow:hidden;
+	}
+	
+.search-textbox
+	{
+		font-family:'Open Sans';
+		font-size:14px;
+		outline:none;
+		width:767px;
+		border:0;
+	}
+	
+.search-button
+	{
+		height:43px;
+		line-height:20px;
+		background:#88c354;
+		color:#fff;
+		min-width:286px;
+		width:auto !important;
+		width:286px;
+		border:1px solid #e5e5e5;
+		text-align:center;
+		float:right;
+	}
+
+/*---------------------------------------------DROP DOWN SECTION-----------------------------------------*/	
+.options
+	{
+		margin-left:-7.5px;
+		width:1133px;
+		overflow:hidden;
+	}
+	
+.options select
+	{
+		margin:27px 7.5px 0px 7.5px;
+		float:left;
+		padding:12.5px 8px;
+		min-width:211.2px;
+		width:auto !important;
+		width:211.2px;
+	}
+	
+/*-----------------------------------------UPPER CONTENT SECTION IN THE BODY PART---------------------------------*/	
+.content-holder
+	{
+		font-family:'Open Sans';
+	}
+	
+.content-holder li ul li 
+	{
+		font-size:14px;
+		margin-right:10px;
+		display:inline;
+		width:auto;
+		float:left;
+	}
+	
+.content-holder li ul li img
+	{
+		display:inline;
+	}
+	
+.content-holder .room-info h3
+	{
+		padding:22px 0px 17px 0px;
+	}
+	
+.content-holder .room-info ul
+	{
+		padding:9px 0px 9px 0px;
+	}
+	
+.content-holder .room-info h3,.content-holder .room-info ul
+	{
+		overflow:hidden;
+		border-bottom:1px solid #e5e5e5;
+	}
+	
+.content-holder li p
+	{
+		padding:14px 0px 35px 0px;
+		line-height:22px;
+	}
+	
+.content-holder .readmore
+	{
+		color:#fff;
+		background:#88c354;
+		min-width:138px;
+		width:auto !important;
+		width:138px;
+		text-align:center;
+		line-height:41px;
+		border:0px;
+	}
+ 
+ /*---------------------------------------LOWER CONTENT SECTION-----------------------------------*/
+.lower-content-outer-wrapper
+	{
+		padding-bottom:55px;
+		overflow:hidden;
+		background:#f0f0f0;
+	}
+	
+.lower-content-outer-wrapper .title
+	{
+		height:50px;
+		font-family:'Open Sans';
+		font-size:20px;
+		line-height:76px;
+	}
+	
+.news-info h3
+	{
+		margin-top:24px;
+	}
+	
+#focus
+	{
+		color:#fe1010;
+	}
+	
+.news-info .date-cat
+	{
+		font-size:14px;
+		font-style:italic;
+		margin-top:15px;
+	}
+	
+.news-info .article
+	{
+		padding-top:24px;
+	}
+	
+ /*------------------------------------ FOOTER STARTS FROM HERE-------------------------------------*/
+.upper-footer-outer-wrapper
+	{
+		color:#fff;
+		background:#333334;
+		font-family:'Open Sans';
+		font-size:14px;
+		padding-bottom:40px;
+	}
+	
+ 
+.properties
+	{
+		float:left;
+		margin-top:51px;
+	}
+	
+.properties  ul li 
+	{
+		width:160px;
+		padding:0px 0px 0px 89px;
+		display:block;
+	}
+ 
+.separator
+	{
+		border-top:1px solid #4b4b4c;
+		overflow:hidden;
+		margin: 10.5px 0px 11.5px 0px;
+	}
+ 
+.prop-pic1
+	{
+		background:url(../images/prop-pic1.png) no-repeat 0px 5px;
+	}
+	
+.prop-pic2
+	{
+		background:url(../images/prop-pic2.png) no-repeat 0px 5px;
+	}
+	
+.prop-pic3
+	{
+		background:url(../images/prop-pic3.png) no-repeat 0px 5px;
+	}
+ 
+ 
+.prop-title
+	{
+		line-height:22px;
+	
+	}
+	
+.prop-price
+	{
+		color:#999999;
+		margin-top:18px;
+	}
+	
+.list-title
+	{
+		font-size:20px;
+		padding-bottom:42px;
+	}
+ 
+.photoes
+	{
+		margin:51px 45px 0px 45px;
+		float:left;
+		width:257px;
+	}
+	
+.photos ul
+	{
+		margin-top:-5px;
+	}
+	
+.photoes ul li
+	{
+		float:left;
+		padding:5px;
+	}
+	
+.categories
+	{
+		width:191px; 
+		margin:0 10px 0 5px;
+	}
+	
+.categories li a
+	{
+		text-decoration:none;
+		color:#999999;
+	}
+	
+.categories,.contact-info
+	{
+		color:#999999;
+		margin:0px 10px;
+		float:left;
+		margin-top:51px;
+		display:table;
+	}
+	
+.categories h3, .contact-info h3
+	{
+		color:#fff;
+	}
+	
+.contact-info
+	{
+		width:291px;
+	}
+	
+.contact-info h4
+	{
+		line-height:20px;
+	}
+	
+.contact-info .contact
+	{
+		margin-top:18px;
+	}
+	
+.contact-info .contact li
+	{
+		line-height:24px;
+		min-height:24px;
+		height:auto !important;
+		height:24px;
+		padding-left:36px;
+		margin:8px 0 8px 0;
+	}
+	
+.icon-phone
+	{
+		background:url(../images/phone.png) no-repeat 0px 0px;
+	}
+	
+.icon-email
+	{
+		background:url(../images/mail.png) no-repeat 0px 0px;
+	}
+	
+.icon-web
+	{
+		background:url(../images/www.png) no-repeat 0px 0px;
+	}
+	
+.social
+	{
+		margin-left:-4.5px;
+	}
+	
+.social li
+	{
+		padding:0px;
+		float:left;
+		margin:4.5px;
+		margin-top:12px;
+	}
+ 
+ /*------------------------------------------------GOOGLE MAP DISPLAY SECTION CSS-------------------------------------------*/
+#map-canvas 
+	{
+		width: 1496px;
+		height: 400px;
+		border:2px solid blue;
+		margin: 0px auto;
+		padding: 0px;
+		border:2px solid #666;
+	}
+	
+.search-div
+	{ 
+		background:#e5e5e5;
+		width:100%;
+	}
+	
+.search-div form select
+	{
+		width:300px;
+		height:50px;
+		margin:5px 0 5px 500px;
+		text-align:center;
+	}
+	
+#marker-container
+	{
+		width:250px;
+		height:150px;
+		padding-top:30px;
+		text-align:center;
+	}
+	
+#marker-title
+	{
+		font-size:20px;
+		font-family:arial;
+		font-color:#000;
+		font-weight:bold;
+		margin-top:30px;
+	}
+	
+#marker-text
+	{
+		padding-top:30px;
+		font-size:14px;
+		font-family:arial;
+	}
+	
+#marker-link
+	{
+		text-decoration:underline;
+		font-size:16px;
+		font-family:arial;
+		line-height:50px;
+	}
+
+	
+/*------------------------------EXPEDIA HOTEL API'S RESPONSE DISPLAY SECTION---------------------------*/
+#expedia-wrapper
+	{
+		width:1118px;
+		margin:0 auto;
+		border:2px solid black;
+	}
+	
+#displaytitle
+	{
+		font-size:20px;
+		font-family:arial;
+		text-decoration:bold;
+		text-decoration:underline;
+		display:block;
+		text-align:center;
+	}
+	
+.form-wrapper
+	{
+		width:1118px;
+		margin:0 auto;
+		border:1px solid #2e2e2e;
+	}
+	
+.form-wrapper .text-box
+	{
+		width:200px;
+		height:80px;
+	}
+	
+#form2
+	{
+		clear:left;
+		display:table;
+		margin:0 auto;
+	}
+	
+.form-wrapper input
+	{
+		width:200px;
+		height:50px;
+		margin:20px 5px 20px 5px;
+	}
+	
+#display-box
+	{
+		width:800px;
+		margin:20px 0 20px 160px; 
+	}
+	
+#display-box ul
+	{
+		padding:10px;
+		background:#D1DADA;
+		float:left;
+		margin:5px;
+		min-width:150px;
+		width:auto !important;
+		width:150px;
+	}
+	
+.hotel-name
+	{
+		color:#fff;
+		margin:2px 0px;
+	}
+
+/*------------------------------------------SCROLLING ICON'S CSS---------------------------------------*/
+.footer .scroll-to-top img
+	{
+		margin-left:1254px;
+		margin-top:-11px;
+	}
+
+.scroll-to-top
+	{
+		position:fixed;
+		display:block;
+		bottom:50px;
+	}
+	
+.footer
+	{
+		width:100%;
+		position:relative;
+	}

@@ -1,0 +1,35 @@
+.main-nav
+	{
+		margin-right:-20px;
+		line-height:112px;
+		font-family:'Open Sans';
+		font-size:14px;
+		float:right;
+		display:table;
+	}
+	
+.main-nav li
+	{
+		float:left;
+	}
+	
+.main-nav li 
+	{
+		margin:0px 7px 0px 7px;
+	}
+	
+.main-nav li:hover a
+	{
+		background:#e5e5e5;
+		border-bottom:5px solid #378f67;
+	}
+	
+.main-nav li a
+	{
+		text-decoration:none;
+		color:#1f1f1f;
+		border-bottom:5px solid #e5e5e5;
+		padding:0px 15px 0px 18px;
+		height:104px;
+		display:block;
+	}

@@ -1,0 +1,159 @@
+.header-outer-wrapper
+	{
+		width:100%;
+	}
+	
+.header-inner-wrapper
+	{
+		overflow:hidden;
+		width:1122px;
+		margin:0px auto;
+	}
+	
+.logo-container
+	{
+		float:left;
+		display:table;
+	}
+	 
+/* BANNER STARTS FROM HERE */
+.banner-wrapper
+	{
+		width:100%;
+	}
+	
+/* CONTENT AREA STARTED */
+.content-outer-wrapper
+	{
+		width:100%;
+	}
+	
+.content-inner-wrapper
+	{
+		width:1118px;
+		margin:0 auto;
+		padding-bottom:41px;
+		overflow:hidden;
+	}
+	
+.content-upper
+	{
+		width:1118px;
+		margin:51px 0px;
+	}
+	
+.content-lower
+	{
+		width:1118px;
+	}
+	
+.nav-container
+	{
+		margin-top:57px;
+		overflow:hidden;
+		width:1118px;
+	}
+	
+.nav-container h3
+	{
+		font-size:20px;
+		font-family:'Open Sans';
+		float:left;
+	}
+	
+.nav-container .nav
+	{
+		float:right;
+	}
+	
+.nav-left
+	{
+		margin-right:5px;
+		float:left;
+	}
+	
+.nav-right
+	{
+		float:right;
+	}
+	
+.content-holder
+	{
+		margin-left:-27px;
+		font-family:'Open Sans';
+		width:1176px;
+		list-style:none;
+	}
+	
+.content-holder h3
+	{
+		font-weight:bold;
+		font-size:16px;
+	}
+	
+.lower-content-inner-wrapper .content-holder h3
+	{
+		font-weight:bold;
+		font-size:20px;
+	}
+	
+.content-holder .room-info
+	{
+		margin:12px 26px 0px 26px;
+		float:left;
+		width:338px;
+	}
+	
+.content-holder li p
+	{
+		color:#666666;
+		font-size:14px;
+	}
+	
+.lower-content-outer-wrapper
+	{
+		width:100%;
+	}
+	
+.lower-content-inner-wrapper
+	{
+		width:1118px;
+		margin:0 auto;
+	}
+	
+.content-holder .news-info
+	{
+		margin:18px 27px 0px 27px;
+		float:left;
+		width:338px;
+	}
+
+	/* FOOTER AREA STARTS HERE */
+.upper-footer-outer-wrapper
+	{
+		width:100%;
+	}
+	
+.upper-footer-inner-wrapper
+	{
+		overflow:hidden;
+		margin:0 auto;
+		width:1118px;
+	}
+
+.lower-footer-outer-wrapper
+	{
+		background:#222222;
+		width:100%;
+	}
+	
+.lower-footer-inner-wrapper
+	{
+		font-family:'Open Sans';
+		font-size:14px;
+		color:#999999;
+		line-height:75px;
+		margin:0 auto;
+		width:1118px;
+	}
+	
